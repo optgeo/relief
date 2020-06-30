@@ -1,0 +1,24 @@
+{
+  "layers": [
+    {
+      "id": "relief",
+      "maxzoom": 18,
+      "minzoom": 0,
+      "source": "relief",
+      "type": "raster"
+    }
+  ],
+  "sources": {
+    "relief": {
+      "attribution": "Made with Natural Earth",
+      "maxzoom": 5,
+      "minzoom": 0,
+      "tileSize": 512,
+      "tiles": [
+        "https://optgeo.github.io/relief/zxy/{z}/{x}/{y}.png"
+      ],
+      "type": "raster"
+    }
+  },
+  "version": 8
+}
